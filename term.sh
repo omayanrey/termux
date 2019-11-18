@@ -52,7 +52,7 @@ echo -e "$GREEN          Installing please wait... $RESET"
 sleep 1
 echo -e "$GREEN          Configuring setup... $RESET"
 sleep 1
-mv client.conf BJAY-$c1.conf
+mv client.conf g$c1.conf
 rm -rf *.py *.json
 clear
 echo ""
@@ -61,7 +61,7 @@ echo ""
 echo -e "$GREEN          Success! $RESET"
 echo ""
 sleep 1
-echo -e "$GREEN          BJAY-$c1.conf has been generated.$RESET"
+echo -e "$GREEN          g$c1.conf has been generated.$RESET"
 echo ""
 echo "";
 break ;;
