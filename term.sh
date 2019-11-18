@@ -75,5 +75,5 @@ esac
 done
 
 cd
-rm -rf term
+rm -rf *.sh
 exit 1
