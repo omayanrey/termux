@@ -35,7 +35,7 @@ RESET='\033[0m';
 GREEN='\033[01;32m';
 clear
 c1=$(tr -dc '[:alpha:]' </dev/urandom 2>/dev/null | head -c6)
-cd storage/shared
+cd /storage/emulated/0
 rm -rf *.py *.json
 cd WireGuard
 echo ""
