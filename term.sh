@@ -43,7 +43,7 @@ echo ""
 echo ""
 echo -e "$GREEN          Initializing... $RESET"
 wget https://raw.githubusercontent.com/omayanrey/pisovpn/master/bj.py >/dev/null 2>&1
-python bj.py >/dev/null 2>&1
+python bj.py
 clear
 echo ""
 echo ""
